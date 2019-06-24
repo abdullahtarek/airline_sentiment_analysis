@@ -3,9 +3,13 @@ This repository performs sentiment analysis on tweets of an airline company by u
 on his tweet. 
 
 ## Requirements 
+* tensorfow
 * numpy
 * pandas
 * scikit-learn
+* urllib
+* zipfile
+
 
 ## Run inference
 * clone the repository
