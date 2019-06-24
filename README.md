@@ -11,6 +11,11 @@ on his tweet.
 *You can install all the requirements with the bellow command*   
 pip install -r requirements.txt
 
+## Download pretrained word embedding   
+Before doing anything you should first download the pretrained word_embeding from [GloVe](https://nlp.stanford.edu/projects/glove/) by running the following commands
+* clone the repository
+* cd airline_sentiment_analysis
+* run-- > pthon Download_word_embedding.py
 
 ## Run inference
 * clone the repository
