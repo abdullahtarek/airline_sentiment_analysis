@@ -7,8 +7,9 @@ on his tweet.
 * numpy
 * pandas
 * scikit-learn
-* urllib
-* zipfile
+
+*You can install all the requirements with the bellow command*   
+pip install -r requirements.txt
 
 
 ## Run inference
