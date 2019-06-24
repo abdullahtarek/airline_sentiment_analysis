@@ -37,13 +37,14 @@ Before doing anything you should first download the pretrained word_embeding fro
 * Run the cells 
 
 ## pipeline
-1- word2vec:
+1- explore the dataset:
+* Envistage the dataset and knew that the data is skewed( more the 50% of the data is one negative and the rest is either nuetral or 
+positive). The steps of the evistagation can be found in this notbook explore_dataset.ipynb
+2- word2vec:
 * Used a pretrained word embedding to converts words into vectors that represent each word   
-
-2- Model:
+3- Model:
 * Built a model consisting of three layers of GRUs followed by on dense layer   
-
-3- Training:
+4- Training:
 * Because the data skewed I implemented and used the **Stratsified batch**.
 
 #### Accuracy, percision,recall , f1_score and a confusion matrix are all found in this notebook Train_and_evaluate.ipynb after training.
